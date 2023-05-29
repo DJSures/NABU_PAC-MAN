@@ -1,0 +1,16 @@
+	.Z80
+BEEP::	LD	C,9
+	LD	DE,FINMSG
+	CALL	5
+BEEP1:	LD	C,6
+	LD	E,0FFH
+	CALL	5
+	AND	A
+	LD	C,0
+	JP	NZ,5
+	LD	C,6
+	LD	E,7
+	CALL	5
+	JR	BEEP1
+FINMSG:	DB	'All done....$'
+	END	

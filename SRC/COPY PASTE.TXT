@@ -1,0 +1,24 @@
+After doall, you need to copy and paste all this into the console window. This will link everything togther and create a PACMAN.COM with entry address 0x100
+
+L80
+LINKTAB
+PACMAN
+PACMENU
+PACDATA
+GHOSTMV
+PINMOV
+INKMOV
+CLYMOV
+PACSOUND
+MULTISPR
+TIMING
+FRUIT
+INTRLUDE
+MORGHOST
+OPTION
+LOGO
+NA2LOGO
+PUTLOGO
+PACMAN/N
+/Y
+/E:PACMAN
